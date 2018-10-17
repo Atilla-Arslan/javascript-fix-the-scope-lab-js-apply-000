@@ -7,7 +7,7 @@ describe('Fix the Scope', function() {
     })
   })
   
- function myAnimal() { }
+ function myAnimal() {return string.toUpperCase() }
 
   describe('yourAnimal()', function() {
     it('returns your animal', function(){
