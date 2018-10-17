@@ -6,8 +6,6 @@ describe('Fix the Scope', function() {
       expect(window.myAnimal()).toEqual('dog')
     })
   })
-  
- function myAnimal() {return string.toUpperCase() }
 
   describe('yourAnimal()', function() {
     it('returns your animal', function(){
